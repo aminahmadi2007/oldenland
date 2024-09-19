@@ -2,9 +2,9 @@
   <div>
     <section class="position-relative">
       <div>
-        <img v-if="$device.isWindows" src="/zafro.jpg" alt="" width="100%" />
+        <img v-if="$device.isDesktop" src="/zafro.jpg" alt="" width="100%" />
 
-        <img v-if="$device.mobile" src="/Asset 1-50.jpg" alt="" width="100%" />
+        <img v-if="$device.Mobile" src="/Asset 1-50.jpg" alt="" width="100%" />
       </div>
 
       <div class="position-absolute bot-50 text-white px-4">
@@ -12,19 +12,19 @@
         <p class="h1">Lorem ipsum dolor sit</p>
       </div>
     </section>
-    <section class="bg-dec py-4">
+    <section class="bg-dec py-5">
       <div class="row d-flex justify-content-center fs-12">
         <div
-          class="col-5 col-xl-2 m-2 p-2 bg-white-opacity border-redius-20 d-flex justify-content-center align-items-center flex-column"
+          class="col-5 col-xl-2 mx-3 px-2 py-4 bg-white-opacity border-redius-20 d-flex justify-content-center align-items-center flex-column"
         >
           <div>
             <img src="/9.png" alt="" width="100px" />
           </div>
           <div>
-            <h1 class="my-3">farmer</h1>
+            <h1 class="my-3 c-005884">farmer</h1>
           </div>
           <div>
-            <p class="text-center">
+            <p class="text-center c-005884">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
               accusamus blanditiis minima aut in distinctio veritatis molestiae,
               praesentium dolor sequi
@@ -38,10 +38,10 @@
             <img src="/9.png" alt="" width="100px" />
           </div>
           <div>
-            <h1 class="my-3">farmer</h1>
+            <h1 class="my-3 c-005884">farmer</h1>
           </div>
           <div>
-            <p class="text-center">
+            <p class="text-center c-005884">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
               accusamus blanditiis minima aut in distinctio veritatis molestiae,
               praesentium dolor sequi
@@ -57,10 +57,10 @@
             <img src="/9.png" alt="" width="100px" />
           </div>
           <div>
-            <h1 class="my-3">farmer</h1>
+            <h1 class="my-3 c-005884">farmer</h1>
           </div>
           <div>
-            <p class="text-center">
+            <p class="text-center c-005884">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
               accusamus blanditiis minima aut in distinctio veritatis molestiae,
               praesentium dolor sequi
@@ -74,10 +74,10 @@
             <img src="/9.png" alt="" width="100px" />
           </div>
           <div>
-            <h1 class="my-3">farmer</h1>
+            <h1 class="my-3 c-005884">farmer</h1>
           </div>
           <div>
-            <p class="text-center">
+            <p class="text-center c-005884">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
               accusamus blanditiis minima aut in distinctio veritatis molestiae,
               praesentium dolor sequi
@@ -91,10 +91,10 @@
             <img src="/9.png" alt="" width="100px" />
           </div>
           <div>
-            <h1 class="my-3">farmer</h1>
+            <h1 class="my-3 c-005884">farmer</h1>
           </div>
           <div>
-            <p class="text-center">
+            <p class="text-center c-005884">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
               accusamus blanditiis minima aut in distinctio veritatis molestiae,
               praesentium dolor sequi
@@ -104,27 +104,27 @@
       </div>
     </section>
     <section class="position-relative">
-        <div>
-          <img src="/bg-dec-zafron.jpg" alt="" class="d-block d-md-none">
-          <img src="/bg-zafron-dec-pc.jpg" alt="" class="d-none d-md-block">
-        </div>
-        <div>
-          <div class="position-absolute  position-top-left-dec-product">
+      <div>
+        <img src="/bg-dec-zafron.jpg" alt="" class="d-block d-md-none" />
+        <img src="/bg-zafron-dec-pc.jpg" alt="" class="d-none d-md-block" />
+      </div>
+      <div>
+        <div class="position-absolute position-top-left-dec-product">
           <p class="h2 C81D11 fs-4vw">Discover our Persian saffron</p>
-          <p class="w-75  fs-2vw my-4">
+          <p class="w-75 fs-2vw my-4">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
             quisquam ab autem nam aliquam, nesciunt non
           </p>
           <NuxtLink to="/category">
             <button
-            class="rounded-pill fs-6 px-3 bg-C81D11 border-none text-white"
-          >
-            View products <img src="/icons8-right-35.png" alt="" />
-          </button>
+              class="rounded-pill fs-6 px-3 bg-C81D11 border-none text-white"
+            >
+              View products <img src="/icons8-right-35.png" alt="" />
+            </button>
           </NuxtLink>
         </div>
-        </div>
-      </section>
+      </div>
+    </section>
     <section class="my-5">
       <div class="row mx-5">
         <div>
@@ -159,7 +159,10 @@
                     Lorem ipsum dolor, sit amet consectetur a
                   </p>
                   <div class="h4 mt-4">
-                    $25 <button class="add-btn p-2 h6 bg-C81D11">add to cart</button>
+                    $25
+                    <button class="add-btn p-2 h6 bg-C81D11">
+                      add to cart
+                    </button>
                   </div>
                 </div>
               </div>
@@ -169,46 +172,46 @@
       </div>
     </section>
     <section class="position-relative">
-        <div>
-          <img src="/peste.jpg" alt="" class="d-block d-md-none">
-          <img src="/bg-peste-dec-pc.jpg" alt="" class="d-none d-md-block">
-        </div>
-        <div>
-          <div class="position-absolute  position-bot-left-dec-product">
+      <div>
+        <img src="/peste.jpg" alt="" class="d-block d-md-none" />
+        <img src="/bg-peste-dec-pc.jpg" alt="" class="d-none d-md-block" />
+      </div>
+      <div>
+        <div class="position-absolute position-bot-left-dec-product">
           <p class="h2 c-00A693 fs-4vw">Discover our Persian saffron</p>
-          <p class="w-75  fs-2vw my-4">
+          <p class="w-75 fs-2vw my-4">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt
             quisquam ab autem nam aliquam, nesciunt non
           </p>
           <NuxtLink to="/category">
             <button
-            class="rounded-pill fs-6 px-3 bg-00A693 border-none text-white"
-          >
-            View products <img src="/icons8-right-35.png" alt="" />
-          </button>
+              class="rounded-pill fs-6 px-3 bg-00A693 border-none text-white"
+            >
+              View products <img src="/icons8-right-35.png" alt="" />
+            </button>
           </NuxtLink>
         </div>
-        </div>
-      </section>
+      </div>
+    </section>
     <section class="my-5">
       <div class="row mx-5">
         <div>
-          <p class="h1 C81D11">The latest saffron products</p>
+          <p class="h1 C81D11">The latest peste products</p>
         </div>
         <div></div>
       </div>
       <div class="d-flex justify-content-center">
         <b-carousel-list
           v-model="test_zafron"
-          :data="zafron"
+          :data="peste"
           :items-to-show="slide_number"
-          class="mt-5 w-85 py-3 px-4 shadow-none"
+          class="mt-5 w-85 py-3 shadow-none"
         >
           <template #item="list">
             <div class="card mx-3 rounded-4 bg-EBEBF3 boxe">
               <div class="">
                 <figure class="is-5by4 mx-4 mt-3">
-                  <img :src="list.image" class="border-radius-16" />
+                  <img :src="list.image" class="rounded-3" />
                 </figure>
                 <b-tag
                   type="is-danger"
@@ -224,7 +227,10 @@
                     Lorem ipsum dolor, sit amet consectetur a
                   </p>
                   <div class="h4 mt-4">
-                    $25 <button class="add-btn p-2 h6 bg-00A693">add to cart</button>
+                    $25
+                    <button class="add-btn p-2 h6 bg-00A693">
+                      add to cart
+                    </button>
                   </div>
                 </div>
               </div>
@@ -276,12 +282,9 @@
         </b-carousel-list>
       </div>
     </section>
-    <section class="position-relative">
-      <div>
-        <img src="/company.jpg" alt="">
-      </div>
-      <div class=" mt-4 px-4 top-0 position-absolute w-100 text-white">
-        <div class="d-flex justify-content-between">
+    <section class="position-relative bg-company bg-primary">
+      <div class=" px-4 top-0 position-absolute w-100 text-white bg-rgba h-100">
+        <div class=" mt-5 d-flex justify-content-between">
           <p class="h1">about us</p>
           <div>
             <button
@@ -292,8 +295,16 @@
           </div>
         </div>
         <div class="mt-4">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A quibusdam voluptate aliquam maxime temporibus, inventore, nemo culpa error vitae debitis reprehenderit quos iure neque hic quae quia praesentium</p>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A quibusdam voluptate aliquam maxime temporibus, inventore, nemo culpa error vitae debitis reprehenderit quos iure neque hic quae quia praesentium</p>
+          <p class="h6">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+            quibusdam voluptate aliquam maxime temporibus, inventore, nemo culpa
+            error vitae debitis 
+          </p>
+          <p class="h6">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
+            quibusdam voluptate aliquam maxime temporibus, inventore, nemo culpa
+            error vitae debitis 
+          </p>
         </div>
       </div>
     </section>
@@ -304,7 +315,7 @@
         >
           <img src="/Trust-icon.png" alt="" />
           <p class="h6 text-center pt-3">
-            Lorem ipsum dolor sit amet consectetur 
+            Lorem ipsum dolor sit amet consectetur
           </p>
         </div>
         <div
@@ -312,7 +323,7 @@
         >
           <img src="/Q-icon.png" alt="" />
           <p class="h6 text-center pt-3">
-            Lorem ipsum dolor sit amet consectetur 
+            Lorem ipsum dolor sit amet consectetur
           </p>
         </div>
         <div
@@ -320,7 +331,7 @@
         >
           <img src="/D-bike-icon.png" alt="" class="py-2" />
           <p class="h6 text-center pt-3">
-            Lorem ipsum dolor sit amet consectetur 
+            Lorem ipsum dolor sit amet consectetur
           </p>
         </div>
       </div>
@@ -546,7 +557,7 @@ export default {
   bottom: 10%;
   left: 5%;
 }
-.h-140{
+.h-140 {
   height: 140px;
 }
 .dot {
@@ -557,6 +568,9 @@ export default {
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
+}
+.bg-rgba{
+  background-color: rgba(0, 0, 0, 0.5);
 }
 .fs-12 {
   font-size: 12px;
@@ -570,6 +584,9 @@ body {
 html {
   overflow-x: hidden;
 }
+.c-005884{
+  color: #005884;
+}
 .bg-dec {
   background-image: url(/pattern.png);
 }
@@ -582,10 +599,10 @@ html {
 .border-redius-16 {
   border-radius: 16px;
 }
-.fs-4vw{
+.fs-4vw {
   font-size: 4vw;
 }
-.fs-2vw{
+.fs-2vw {
   font-size: 1.5vw;
 }
 .text-justify {
@@ -606,12 +623,7 @@ html {
 .bg-363636 {
   background-color: #363636;
 }
-.about-us {
-  width: 100%;
-  height: 650px;
-  background-color: #00a693;
-}
-.bg-none{
+.bg-none {
   background-color: transparent;
 }
 .border-none {
@@ -641,6 +653,11 @@ html {
 .w-85 {
   width: 85%;
 }
+.bg-company{
+  height: 350px;
+  background-image: url(/company.jpg);
+  background-attachment: fixed
+}
 .bg-EBEBF3 {
   background-color: #ebebf3;
 }
@@ -661,38 +678,31 @@ header {
   position: relative;
   top: 0;
 }
-
-.about-us {
-  background-image: url(/101.jpg);
-  background-repeat: no-repeat;
-  color: white;
-  background-size: 100% 100%;
-}
-.bg-dec-zafron{
+.bg-dec-zafron {
   background-image: url(/bg-dec-zafron.jpg);
   background-size: cover;
 }
-.position-top-left-dec-product{
+.position-top-left-dec-product {
   top: 8%;
   left: 3%;
 }
-.position-bot-left-dec-product{
+.position-bot-left-dec-product {
   bottom: 8%;
   left: 5%;
 }
 @media (max-width: 768px) {
   .position-top-left-dec-product {
-    top: 5%; 
-    left: 16%;
+    top: 5%;
+    left: 5%;
   }
-  .fs-4vw{
-  font-size: 6vw;
+  .fs-4vw {
+    font-size: 6vw;
+  }
+  .fs-2vw {
+    font-size: 4vw;
+  }
 }
-.fs-2vw{
-  font-size: 4vw;
-}
-}
-.name-site{
+.name-site {
   color: white;
 }
 </style>

@@ -1,18 +1,22 @@
 <template>
   <div>
-    <section class="container">
-      <img
-        src="/Untitled-1.jpg"
-        alt=""
-        height="850px"
-        class="border-g-2 w-100"
-      />
+    <div class="p-5"></div>
+    <section
+      class="container my-5 bg-primary h-750 rounded-4 d-flex justify-content-center"
+    >
+      <div
+        class="my-5 col-11 col-md-5 col-lg-4 bg-363636 p-4 rounded-4 text-white"
+      >
+        <div class="row d-flex flex-column px-2">
+        </div>
+      </div>
     </section>
   </div>
 </template>
 <style>
-.border-g-2 {
-  box-shadow: 0 0 20px 3px lightgray;
-  border-radius: 20px;
+.h-750 {
+  height: 750px;
+  background-image: url(/Untitled-1.jpg);
 }
+
 </style>

@@ -158,7 +158,7 @@ export default {
 .bg-rgba {
   background-color: rgba(0, 0, 0, 0.5);
 }
-.name-site{
+.name-site {
   color: white;
 }
 </style>

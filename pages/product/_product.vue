@@ -328,7 +328,7 @@ export default {
 .heigh-170 {
   height: 170px;
 }
-.name-site{
+.name-site {
   color: black;
 }
 </style>

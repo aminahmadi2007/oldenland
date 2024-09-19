@@ -220,7 +220,7 @@ export default {
 .bg-545454 {
   background-color: #545454;
 }
-.name-site{
+.name-site {
   color: black;
 }
 </style>
