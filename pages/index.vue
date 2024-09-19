@@ -4,7 +4,12 @@
       <div>
         <img v-if="$device.isDesktop" src="/zafro.jpg" alt="" width="100%" />
 
-        <img v-if="$device.Mobile" src="/Asset 1-50.jpg" alt="" width="100%" />
+        <img
+          v-if="$device.isMobile"
+          src="/Asset 1-50.jpg"
+          alt=""
+          width="100%"
+        />
       </div>
 
       <div class="position-absolute bot-50 text-white px-4">
@@ -127,7 +132,7 @@
     </section>
     <section class="my-5">
       <div class="row mx-5">
-        <div>
+        <div class="p-0">
           <p class="h1 C81D11">The latest saffron products</p>
         </div>
         <div></div>
@@ -137,13 +142,13 @@
           v-model="test_zafron"
           :data="zafron"
           :items-to-show="slide_number"
-          class="mt-5 w-85 py-3 px-4 shadow-none"
+          class="mt-4 w-85 py-3 shadow-none"
         >
           <template #item="list">
             <div class="card mx-3 rounded-4 bg-EBEBF3 boxe">
               <div class="">
                 <figure class="is-5by4 mx-4 mt-3">
-                  <img :src="list.image" class="border-radius-16" />
+                  <img :src="list.image" class="rounded-3" />
                 </figure>
                 <b-tag
                   type="is-danger"
@@ -195,8 +200,8 @@
     </section>
     <section class="my-5">
       <div class="row mx-5">
-        <div>
-          <p class="h1 C81D11">The latest peste products</p>
+        <div class="p-0">
+          <p class="h1 c-00A693">The latest peste products</p>
         </div>
         <div></div>
       </div>
@@ -205,7 +210,7 @@
           v-model="test_zafron"
           :data="peste"
           :items-to-show="slide_number"
-          class="mt-5 w-85 py-3 shadow-none"
+          class="mt-4 w-85 py-3 shadow-none boxe"
         >
           <template #item="list">
             <div class="card mx-3 rounded-4 bg-EBEBF3 boxe">
@@ -227,10 +232,7 @@
                     Lorem ipsum dolor, sit amet consectetur a
                   </p>
                   <div class="h4 mt-4">
-                    $25
-                    <button class="add-btn p-2 h6 bg-00A693">
-                      add to cart
-                    </button>
+                    $25 <button class="add-btn p-2 h6">add to cart</button>
                   </div>
                 </div>
               </div>
@@ -239,9 +241,9 @@
         </b-carousel-list>
       </div>
     </section>
-    <section class="my-5 py-5 bg-EBEBF3">
+    <section class="py-5 bg-EBEBF3">
       <div class="row mx-5">
-        <div>
+        <div class="p-0">
           <p class="h1 c-701C1C">The latest products</p>
         </div>
         <div></div>
@@ -251,13 +253,13 @@
           v-model="test"
           :data="products"
           :items-to-show="slide_number"
-          class="mt-5 w-85 py-3 px-4 shadow-none boxe"
+          class="mt-5 w-85 py-3 shadow-none boxe"
         >
           <template #item="list">
             <div class="card mx-3 rounded-4 bg-EBEBF3 boxe">
               <div class="">
                 <figure class="is-5by4 mx-4 mt-3">
-                  <img :src="list.image" class="border-radius-16" />
+                  <img :src="list.image" class="rounded-3" />
                 </figure>
                 <b-tag
                   type="is-danger"
@@ -283,8 +285,8 @@
       </div>
     </section>
     <section class="position-relative bg-company bg-primary">
-      <div class=" px-4 top-0 position-absolute w-100 text-white bg-rgba h-100">
-        <div class=" mt-5 d-flex justify-content-between">
+      <div class="px-4 top-0 position-absolute w-100 text-white bg-rgba h-100">
+        <div class="mt-5 d-flex justify-content-between">
           <p class="h1">about us</p>
           <div>
             <button
@@ -298,12 +300,12 @@
           <p class="h6">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
             quibusdam voluptate aliquam maxime temporibus, inventore, nemo culpa
-            error vitae debitis 
+            error vitae debitis
           </p>
           <p class="h6">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. A
             quibusdam voluptate aliquam maxime temporibus, inventore, nemo culpa
-            error vitae debitis 
+            error vitae debitis
           </p>
         </div>
       </div>
@@ -569,7 +571,7 @@ export default {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.bg-rgba{
+.bg-rgba {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .fs-12 {
@@ -584,7 +586,7 @@ body {
 html {
   overflow-x: hidden;
 }
-.c-005884{
+.c-005884 {
   color: #005884;
 }
 .bg-dec {
@@ -653,10 +655,10 @@ html {
 .w-85 {
   width: 85%;
 }
-.bg-company{
+.bg-company {
   height: 350px;
   background-image: url(/company.jpg);
-  background-attachment: fixed
+  background-attachment: fixed;
 }
 .bg-EBEBF3 {
   background-color: #ebebf3;

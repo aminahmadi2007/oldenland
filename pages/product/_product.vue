@@ -7,7 +7,7 @@
       >
         <div class="gallery-image-product col-12 col-md-8 col-lg-5">
           <div class="row">
-            <img src="/peste-box.jpg" alt="" class="p-0" />
+            <img src="/box-1.jpg" alt="" class="p-0" />
           </div>
           <div class="row my-2">
             <div class="col-1 p-0 d-flex align-items-center">
@@ -15,34 +15,10 @@
             </div>
             <div class="col col-lg-9">
               <div class="row">
-                <div
+                <div v-for="x in 5"
                   class="col overflow-hidden p-0 mx-1 rounded-3 border-gray position-relative"
                 >
-                  <img src="/peste-box.jpg" alt="" width="100%" />
-                  <div class="position-absolute bg-opacity-50"></div>
-                </div>
-                <div
-                  class="col overflow-hidden p-0 mx-1 rounded-3 border-gray position-relative"
-                >
-                  <img src="/peste-box.jpg" alt="" width="100%" />
-                  <div class="position-absolute bg-opacity-50"></div>
-                </div>
-                <div
-                  class="col overflow-hidden p-0 mx-1 rounded-3 border-gray position-relative"
-                >
-                  <img src="/peste-box.jpg" alt="" width="100%" />
-                  <div class="position-absolute bg-opacity-50"></div>
-                </div>
-                <div
-                  class="col overflow-hidden p-0 mx-1 rounded-3 border-gray position-relative"
-                >
-                  <img src="/peste-box.jpg" alt="" width="100%" />
-                  <div class="position-absolute bg-opacity-50"></div>
-                </div>
-                <div
-                  class="col overflow-hidden p-0 mx-1 rounded-3 border-gray position-relative"
-                >
-                  <img src="/peste-box.jpg" alt="" width="100%" />
+                  <img src="/zafron-box.jpg" alt="" width="100%" />
                   <div class="position-absolute bg-opacity-50"></div>
                 </div>
               </div>
@@ -57,7 +33,7 @@
             <div class="col-12">
               <div class="row d-flex flex-column">
                 <div class="col border-but p-0">
-                  <p class="h1">peste</p>
+                  <p class="h1">persian zafron</p>
                   <div class="h5 d-flex align-items-center">
                     4.8
                     <img

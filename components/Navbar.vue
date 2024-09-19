@@ -63,32 +63,42 @@
             </div>
           </div>
         </div>
-        <div
-          class="box-img position-relative d-flex align-items-center justify-content-center"
+        <div class="box-img d-flex align-items-center">
+          <div
+          :class="{ 'search-style': showSearch }"
+          class="rounded-pill position-absolute d-flex align-items-center justify-content-between px-3 base-style "
+          
         >
-          <img class="w-55" src="/3.png" alt="" />
+          <input
+            type="text"
+            placeholder="search"
+            :class="{ 'd-block': showSearch, 'd-none': !showSearch }"
+            class="bg-none border-none text-white outline-none"
+          />
+          <img @click="showSearch = !showSearch"
+           src="/3.png" alt="" style="width: 40%;" :style="showSearch ? { width: '10%' } : {}" />
+        </div>
         </div>
       </div>
       <div>
         <NuxtLink to="/" class="text-decoration-none">
-          <p class="h2 m-0 name-site">OLDENLAND</p>
+          <p class="h3 m-0 text-white">oldenland</p>
         </NuxtLink>
       </div>
       <div class="d-flex align-items-center mx-3">
         <NuxtLink to="/login">
           <div
-          class="box-img position-relative mx-1 d-flex align-items-center justify-content-center"
-        >
-          <img class="w-55" src="/2.png" alt="" />
-        </div>
+            class="box-img position-relative mx-1 d-flex align-items-center justify-content-center"
+          >
+            <img class="w-55" src="/2.png" alt="" />
+          </div>
         </NuxtLink>
         <NuxtLink to="/cart">
           <div
-          class="box-img position-relative mt-1 d-flex align-items-center justify-content-center"
-        >
-          
+            class="box-img position-relative mt-1 d-flex align-items-center justify-content-center"
+          >
             <img class="w-55" src="/1.png" alt="" />
-        </div>
+          </div>
         </NuxtLink>
       </div>
     </nav>
@@ -100,6 +110,12 @@ export default {
     return {
       showmenu: false,
       showsubmenu: false,
+      showSearch: false, // مقدار پیش‌فرض
+      searchStyle: {
+        width: '270px',
+        height: '35px',
+        border: '2px solid white',
+      },
       products_menue: ["zafron", "peste", "gol mohamadi", "mive"],
     };
   },
@@ -117,6 +133,9 @@ export default {
   position: absolute;
   top: 20px;
   right: -130%;
+}
+.outline-none{
+  outline: none;
 }
 .menue-box {
   width: 200px;
@@ -141,10 +160,19 @@ nav {
   width: 45px;
   height: 45px;
   justify-content: space-between;
-
   cursor: pointer;
 }
 .w-55 {
   width: 55%;
+}
+.base-style {
+  height: 35px;
+  transition: width 0.5s ease-in-out; /* تنظیم ترنزیشن با مدت زمان 0.5 ثانیه */
+  width: 100px; /* مقدار اولیه عرض */
+}
+
+.search-style {
+  width: 270px; /* مقدار عرض در حالت showSearch = true */
+  border: 2px solid white;
 }
 </style>

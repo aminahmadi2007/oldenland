@@ -33,7 +33,8 @@
         </div>
       </div>
       <div class="col">
-        <div class="row d-flex justify-content-center">
+        <NuxtLink to="/product/">
+          <div class="row d-flex justify-content-center">
           <div
             v-for="x in 8"
             class="col-5 col-sm-3 col-md-3 col-xl-2 py-2 d-flex flex-column mx-2 my-3 rounded-3"
@@ -64,6 +65,7 @@
             </div>
           </div>
         </div>
+        </NuxtLink>
       </div>
     </section>
   </div>
