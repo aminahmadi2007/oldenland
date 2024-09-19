@@ -38,9 +38,11 @@
                     v-for="product_menue in products_menue"
                     class="col-12 d-flex align-items-center my-2"
                   >
-                    <div class="div mx-3">
-                      <p class="m-0 h6">{{ product_menue }}</p>
+                    <NuxtLink to="/product" class="text-decoration-none">
+                      <div class="div mx-3">
+                      <p class="m-0 my-2 h6 text-black"> zafron </p>
                     </div>
+                    </NuxtLink>
                   </div>
                 </div>
               </div>

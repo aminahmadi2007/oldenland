@@ -33,13 +33,13 @@
         </div>
       </div>
       <div class="col">
-        <NuxtLink to="/product/">
           <div class="row d-flex justify-content-center">
           <div
             v-for="x in 8"
-            class="col-5 col-sm-3 col-md-3 col-xl-2 py-2 d-flex flex-column mx-2 my-3 rounded-3"
+            class="col-5 col-sm-3 col-md-3 col-xl-2 py-2 d-flex flex-column m-3 rounded-3"
           >
-            <div class="d-flex justify-content-center">
+            <NuxtLink to="/product">
+              <div class="d-flex justify-content-center">
               <img
                 src="/zafron-box.jpg"
                 alt=""
@@ -47,6 +47,7 @@
                 class="rounded-4"
               />
             </div>
+            </NuxtLink>
             <div>
               <div>
                 <div class="d-flex justify-content-between">
@@ -65,7 +66,6 @@
             </div>
           </div>
         </div>
-        </NuxtLink>
       </div>
     </section>
   </div>

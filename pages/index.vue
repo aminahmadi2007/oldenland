@@ -23,10 +23,10 @@
           class="col-5 col-xl-2 mx-3 px-2 py-4 bg-white-opacity border-redius-20 d-flex justify-content-center align-items-center flex-column"
         >
           <div>
-            <img src="/9.png" alt="" width="100px" />
+            <img src="/8.png" alt="" width="100px" />
           </div>
           <div>
-            <h1 class="my-3 c-005884">farmer</h1>
+            <p class="my-3 c-005884 h5">Product Pricing</p>
           </div>
           <div>
             <p class="text-center c-005884">
@@ -43,7 +43,7 @@
             <img src="/9.png" alt="" width="100px" />
           </div>
           <div>
-            <h1 class="my-3 c-005884">farmer</h1>
+            <p class="my-3 c-005884 h5">TestingProduct</p>
           </div>
           <div>
             <p class="text-center c-005884">
@@ -59,27 +59,10 @@
           class="col-5 col-xl-2 m-2 p-2 bg-white-opacity border-redius-20 d-flex justify-content-center align-items-center flex-column"
         >
           <div>
-            <img src="/9.png" alt="" width="100px" />
+            <img src="/10.png" alt="" width="100px" />
           </div>
           <div>
-            <h1 class="my-3 c-005884">farmer</h1>
-          </div>
-          <div>
-            <p class="text-center c-005884">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
-              accusamus blanditiis minima aut in distinctio veritatis molestiae,
-              praesentium dolor sequi
-            </p>
-          </div>
-        </div>
-        <div
-          class="col-5 col-xl-2 m-2 p-2 bg-white-opacity border-redius-20 d-flex justify-content-center align-items-center flex-column"
-        >
-          <div>
-            <img src="/9.png" alt="" width="100px" />
-          </div>
-          <div>
-            <h1 class="my-3 c-005884">farmer</h1>
+            <p class="my-3 c-005884 h5">Farmer</p>
           </div>
           <div>
             <p class="text-center c-005884">
@@ -93,10 +76,27 @@
           class="col-5 col-xl-2 m-2 p-2 bg-white-opacity border-redius-20 d-flex justify-content-center align-items-center flex-column"
         >
           <div>
-            <img src="/9.png" alt="" width="100px" />
+            <img src="/11.png" alt="" width="100px" />
           </div>
           <div>
-            <h1 class="my-3 c-005884">farmer</h1>
+            <p class="my-3 c-005884 h5">Proper Packing</p>
+          </div>
+          <div>
+            <p class="text-center c-005884">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam
+              accusamus blanditiis minima aut in distinctio veritatis molestiae,
+              praesentium dolor sequi
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-5 col-xl-2 m-2 p-2 bg-white-opacity border-redius-20 d-flex justify-content-center align-items-center flex-column"
+        >
+          <div>
+            <img src="/12.png" alt="" width="100px" />
+          </div>
+          <div>
+            <p class="my-4 c-005884 h5">Order Delivery</p>
           </div>
           <div>
             <p class="text-center c-005884">
@@ -256,7 +256,7 @@
           class="mt-5 w-85 py-3 shadow-none boxe"
         >
           <template #item="list">
-            <div class="card mx-3 rounded-4 bg-EBEBF3 boxe">
+            <div class="card mx-3 rounded-4  boxe">
               <div class="">
                 <figure class="is-5by4 mx-4 mt-3">
                   <img :src="list.image" class="rounded-3" />
@@ -292,7 +292,7 @@
             <button
               class="rounded-pill px-3 py-1 border border-2 border-white text-white bg-none"
             >
-              read nore <img src="/icons8-right-35.png" alt="" />
+              read more <img src="/icons8-right-35.png" alt="" />
             </button>
           </div>
         </div>
@@ -541,9 +541,9 @@ export default {
   },
   methods: {
     change_slide_number() {
-      if (this.$device.isMobile) this.slide_number = 1;
+      if (this.$device.isMobile) this.slide_number = 1.1;
       else if (this.$device.isTablet) {
-        this.slide_number = 2;
+        this.slide_number = 2.1;
       } else if (this.$device.isDesktop) {
         this.slide_number = 4.5;
       }
@@ -573,9 +573,6 @@ export default {
 }
 .bg-rgba {
   background-color: rgba(0, 0, 0, 0.5);
-}
-.fs-12 {
-  font-size: 12px;
 }
 .active {
   background-color: #717171;
