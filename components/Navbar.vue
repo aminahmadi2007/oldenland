@@ -63,7 +63,8 @@
             </div>
           </div>
         </div>
-        <div class="box-img d-flex align-items-center">
+        <div class="box-img d-flex d-lg-none"></div>
+        <div class="box-img align-items-center d-none d-lg-flex">
           <div
           :class="{ 'search-style': showSearch }"
           class="rounded-pill position-absolute d-flex align-items-center justify-content-between px-3 base-style "
