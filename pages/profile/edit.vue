@@ -8,7 +8,7 @@
                         <img src="/person-dash.jpg" alt="" width="130px" class="rounded-pill">
                     </div>
                 </div>
-                <div class="col-12 mt-4">
+                <div class="col-12 mt-4n">
                     <div class="row px-1">
                         <div class="col-12 col-md-8 col-lg-5 col-xl-4 mt-3">
                             <div class="row">
